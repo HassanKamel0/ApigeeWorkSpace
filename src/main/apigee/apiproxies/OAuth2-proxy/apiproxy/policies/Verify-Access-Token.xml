@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 async="false" continueOnError="false" enabled="true" name="Verify-Access-Token">
+    <DisplayName>Verify-Access-Token</DisplayName>
+    <Operation>VerifyAccessToken</Operation>
+    <AccessToken>request.header.access_token</AccessToken>
+    <SupportedGrantTypes/>
+    <GenerateResponse enabled="true"/>
+    <Tokens/>
+    <RFCCompliantRequestResponse>true</RFCCompliantRequestResponse>
+</OAuthV2>

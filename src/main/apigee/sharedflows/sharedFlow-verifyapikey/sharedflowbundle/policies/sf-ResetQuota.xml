@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResetQuota async="false" continueOnError="false" enabled="true" name="sf-ResetQuota">
+    <DisplayName>sf-ResetQuota</DisplayName>
+    <Properties/>
+    <Quota name="sf-quota">
+        <Identifier name="_default" ref="request.header.identifier">
+            <Allow>3</Allow>
+        </Identifier>
+    </Quota>
+</ResetQuota>

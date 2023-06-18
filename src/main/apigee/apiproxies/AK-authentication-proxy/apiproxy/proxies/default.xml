@@ -1,0 +1,26 @@
+<ProxyEndpoint name="default">
+  <PreFlow name="PreFlow">
+    <Request>
+      <!-- <Step>
+        <Name>spikeAssert</Name>
+      </Step> -->
+      <Step>
+        <Name>sf-vak-co</Name>
+      </Step>
+      <!-- <Step>
+        <Name>remove-query-param-apikey</Name>
+      </Step> -->
+    </Request>
+    <Response>
+      <Step>
+        <Name>xml-to-json</Name>
+      </Step>
+    </Response>
+  </PreFlow>
+  <HTTPProxyConnection>
+    <BasePath>/verify-api-keyLocal</BasePath>
+  </HTTPProxyConnection>
+  <RouteRule name="default-route">
+    <TargetEndpoint>default</TargetEndpoint>
+  </RouteRule>
+</ProxyEndpoint>

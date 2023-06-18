@@ -1,0 +1,34 @@
+[
+  {
+    "attributes": [
+      {
+        "name": "sample_attribute_0",
+        "value": "sample_attribute_value_0"
+      }
+    ],
+    "developerEmail": "localDeveloper@test.com",
+    "name": "LocalApiKeyApp",
+    "displayName": "Api Key Auth Local",
+    "callbackUrl": "",
+    "apiProducts": [
+      "LocalProduct"
+    ],
+    "expiryType": "never"
+  },
+  {
+    "attributes": [
+      {
+        "name": "sample_attribute_0",
+        "value": "sample_attribute_value_0"
+      }
+    ],
+    "developerEmail": "localDeveloper@test.com",
+    "name": "OAuth2LocalApp",
+    "displayName": "OAuth2LocalApp",
+    "callbackUrl": "",
+    "apiProducts": [
+      "OAuth2ProductLocal"
+    ],
+    "expiryType": "never"
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota async="false" continueOnError="false" enabled="true" name="sf-quota" type="calendar">
+    <DisplayName>sf-quota</DisplayName>
+    <Properties/>
+    <Allow count="3" countRef="request.header.allowed_quota"/>
+    <Interval ref="request.header.quota_count">1</Interval>
+    <Distributed>true</Distributed>
+    <Synchronous>false</Synchronous>
+    <TimeUnit ref="request.header.quota_timeout">minute</TimeUnit>
+    <StartTime>2023-02-14 12:00:00</StartTime>
+    <!-- <AsynchronousConfiguration>
+        <SyncIntervalInSeconds>5</SyncIntervalInSeconds>
+        <SyncMessageCount>4</SyncMessageCount>
+    </AsynchronousConfiguration> -->
+</Quota>

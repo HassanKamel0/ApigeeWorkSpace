@@ -1,0 +1,4 @@
+{
+  "proxies" : ["AK-authentication-proxy","OAuth2-proxy","JWT-Proxy"],
+  "sharedflows" : ["sharedFlow-verifyapikey"]
+}
